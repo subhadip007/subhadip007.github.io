@@ -1,0 +1,218 @@
+
+.logo{
+    height: 65px;
+    width: auto;
+}
+
+.welcome .parallax-container .wel-header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 150px;
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.welcome .parallax-container .parallax img{
+    filter: blur(2px);
+}
+
+.carousel{
+    height: 500px !important;
+}
+
+.sticky-nav{
+    position: fixed;
+    z-index: 1100000;
+}
+
+.nav-wrapper{
+    background-color: #294b6d!important;
+}
+
+
+.slides img{
+    filter: blur(2px);
+    border-top: 45px !important;
+}
+
+.slides .caption h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .indicators .indicator-item.active{
+   background-color: #294b6d !important;
+}
+
+
+
+.fcard .container .card{
+    position: relative;
+    width: 280px;
+   height: 450px;
+   background: #294b6d;
+   border-radius: 20px;
+   overflow: hidden;
+
+}
+
+.fcard .container .card {
+    margin-right: 13px;
+    margin-top: 18px;
+}
+.container .c1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.container .c2::before{
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: greenyellow;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+
+}
+.container .c3::before{
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: orange;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+
+}
+
+.container .card:hover::before{
+    clip-path: circle(300px at 80% -20%);
+}
+
+/* .container .card::after{
+    content: 'RAJEX';
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 7em;
+    font-weight: 800;
+    font-style: italic;
+    color: pink;
+    
+} */
+
+.container .card .imgBx{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 13px;
+    z-index: 10000;
+    width: 100%;
+    height: 220px;
+    transition: 0.5s;
+    
+    
+}
+
+.container .card:hover .imgBx{
+    top: 0%;
+    transform: translateY(0%);
+   
+}
+
+.container .card .imgBx img{
+    position: absolute;
+    top: 50%;
+    /* margin-left: 5.3em; */
+    left: 4.3em;
+    top: 1.5em;
+    transform: translate(-50% -50%) rotate(-25deg);
+    width: 170px;
+    border-left: 8px;
+    
+}
+
+.container .card .contentBx{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 180px;
+    padding-bottom: 18px !important;
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.container .card:hover .contentBx{
+    height: 230px;
+}
+
+
+.container .card .contentBx h2{
+    position: relative;
+    right: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 47px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.container .card .contentBx .flink h5{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 18px 20px;
+transition: 0.5s;
+
+}
+
+.parallax-container{
+    height: 90vh !important;
+    margin: 0;
+}
+
+.fparallax{
+    width: 100%;
+    min-height: 400px;
+}
+
+.parallax  img{
+    width: 1500px;
+}
+
+
+.fabout .section .row a{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   color: #294b6d;
+  
+}
+
+.fabout .section .row h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #294b6d;
+}

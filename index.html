@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/foss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <section class='fnavbar'>
+        <nav class="nav  ">
+            <div class="nav-wrapper">
+                
+              <a href="#" class="brand-logo  "><img src="./images/photo_2020-07-23_19-50-37.jpg" alt="logo" class='logo'></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down  ">
+                <li ><a href="#"  onclick="toggleModal()">HOME</a></li>
+                <li><a href="./about.html" onclick="toggleModal()">ABOUT US</a></li>
+                <li><a href="#" onclick="toggleModal()">PROJECTS</a></li>
+                <li><a href="#" onclick="toggleModal()">JOIN US</a></li>
+                <li><a href="#" onclick="toggleModal()">CONTACT</a></li>
+              </ul>
+            </div>
+           
+          </nav>
+        
+          <ul class="sidenav  " id="mobile-demo">
+           <li><a href="#"  onclick="toggleModal()">HOME</a></li>
+            <li><a href="#" onclick="toggleModal()">ABOUT US</a></li>
+            <li><a href="#" onclick="toggleModal()">PROJECTS</a></li>
+            <li><a href="#" onclick="toggleModal()">JOIN US</a></li>
+            <li><a href="#" onclick="toggleModal()">CONTACT</a></li>
+                
+          </ul>
+        
+    </section>
+
+    <section  class='fparallax welcome'>
+        <div class="parallax-container">
+            <div class="parallax"><img src="./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg"   alt=""></div>
+            <div class="wel-header">
+               <p>Welcome to Opensource</p>
+            </div>
+        </div>
+    </section>
+
+    <section class='fslider'>
+        <div class="slider">
+            <ul class="slides">
+                <li id='slide1'>
+                    <img src="./images/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="img-1">
+                <div class="caption center-align  ">
+                     <h3>New Project on Adruino</h3>
+                    
+                </div>
+            </li>
+                <li id='slide2'>
+                    <img src="./images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="img-2">
+                <div class="caption center-align ">
+                    <h3>5 REASONS DENO IS BETTER</h3> 
+                    <!-- <h5 class="light text-lighten-3">We serve the best coffee</h5> -->
+                </div>
+            </li>
+            </ul>
+        </div>
+</section>
+
+<section class='fcard'>
+   
+        <div class="container  center row move">
+            <div class="card col c1 ">
+                <div class="imgBx">
+                    <img src="./images/programming.png" alt="">
+                </div>
+                <div class="contentBx">
+                    <h2>Web Devlopment</h2>
+
+                    <div class="flink">
+                        <h5><a href="#">JOIN</a></h5>
+                    </div>
+                </div><span>
+
+            </div>
+            <div class="card col c2 ">
+                <div class="imgBx">
+                    <img src="./images/ai.png" alt="">
+                </div>
+                <div class="contentBx">
+                    <h2>Machine Learning</h2>
+
+                    <div class="flink">
+                        <h5 class='link2'><a href="#">JOIN</a></h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card col  c3">
+                <div class="imgBx">
+                    <img src="./images/microcontroller.png" alt="">
+                </div>
+                <div class="contentBx">
+                    <h2>Embedded systems</h2>
+
+                    <div class="flink">
+                        <h5><a href="#">JOIN</a></h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#294b6d" fill-opacity="1" d="M0,160L30,165.3C60,171,120,181,180,197.3C240,213,300,235,360,250.7C420,267,480,277,540,245.3C600,213,660,139,720,90.7C780,43,840,21,900,26.7C960,32,1020,64,1080,85.3C1140,107,1200,117,1260,106.7C1320,96,1380,64,1410,48L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+
+</section>
+
+<section  class='fparallax'>
+    <div class="parallax-container">
+        <div class="parallax"><img src="./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg"   alt=""></div>
+    </div>
+</section>
+
+<section class="fabout">
+    <div class="section white-center">
+        <div class="row container">
+            <h2 class="header">About us</h2>
+            <p class="grey-text text-darken-3 ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatem tenetur autem quod illum magni praesentium possimus voluptate ducimus nobis suscipit dolorum velit corporis tempore earum modi, a eaque commodi optio eligendi. Porro at laborum harum quae quibusdam delectus nulla, culpa exercitationem nam deserunt quas, aliquid doloribus modi voluptate asperiores!
+            </p>
+            <a href="#" class="  waves-effect waves-light  center-align">MORE</a>
+        </div>
+    </div>
+</section>
+
+
+   <script src="./JS/foss.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

@@ -20,3 +20,13 @@ $(document).ready(function(){
 //     var instance = M.Modal.getInstance($('#modal3'))
 //     instance.open();
 // }
+
+
+const splash= document.querySelector('.splash');
+document.addEventListener('DOMContentLoaded',(e)=>
+setTimeout(()=>{
+  splash.classList.add('display-none');
+},2000)
+)
+
+

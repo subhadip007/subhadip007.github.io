@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="149.311" viewBox="0 0 160 149.311">
+  <g id="Logo_SVG" data-name="Logo SVG" transform="translate(-63 -270.689)">
+    <g id="Logo_Shape" data-name="Logo Shape" transform="translate(-0.721 253.49)">
+      <path id="Path_4" data-name="Path 4" d="M684.951,6.355V-31.078L717.017-49.49l31.558,18.412V6.355l-31.81,18.77Z" transform="translate(-573.23 69)" fill="none" stroke="#23a0d5" stroke-width="4"/>
+      <path id="Path_5" data-name="Path 5" d="M684.951-34.16l8.319,7.923,23.187-14.118,23.977,14.118,7.342-8.551" transform="translate(-572.951 73)" fill="none" stroke="#23a0d5" stroke-width="4"/>
+      <path id="Path_6" data-name="Path 6" d="M684.951-33.085l8.319-7.923,23.21,12.695,23.954-12.695,7.518,8.731" transform="translate(-572.951 108)" fill="none" stroke="#23a0d5" stroke-width="4"/>
+      <path id="Path_7" data-name="Path 7" d="M625.533-48.061V-35.59" transform="translate(-482 68)" fill="none" stroke="#23a0d5" stroke-width="4"/>
+      <path id="Path_8" data-name="Path 8" d="M625.412,11.687V25.864" transform="translate(-482 68)" fill="none" stroke="#23a0d5" stroke-width="4"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" width="9" height="33" transform="translate(141.63 29.352) rotate(-59)" fill="#23a0d5"/>
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="11" height="30" transform="matrix(0.53, -0.848, 0.848, 0.53, 113.665, 76.007)" fill="#23a0d5"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M2.5,0,5,4H0Z" transform="translate(138.721 87)" fill="#23a0d5"/>
+    </g>
+    <text id="F" transform="translate(143 320)" fill="#29672d" font-size="30" font-family="FranklinGothic-Medium, Franklin Gothic" font-weight="500"><tspan x="-7.617" y="0">F</tspan></text>
+    <text id="KIIT" transform="translate(143 368)" fill="#29672d" font-size="25" font-family="Candara"><tspan x="-20.673" y="0">KIIT</tspan></text>
+    <text id="FOSS_OSH" data-name="FOSS / OSH" transform="translate(143 396)" fill="#23a0d5" font-size="25" font-family="Candara"><tspan x="-59.54" y="0">FOSS / OSH</tspan></text>
+    <text id="open_source_everything" data-name="open source everything" transform="translate(143 416)" fill="#23a0d5" font-size="16" font-family="Amaranth-Regular, Amaranth"><tspan x="-79.472" y="0">open source everything</tspan></text>
+  </g>
+</svg>

@@ -1,5 +1,7 @@
 
-
+body{
+    margin: 0;
+}
 .splash{
     position: fixed;
     top: 0;
@@ -84,6 +86,22 @@
 .carousel{
     height: 500px !important;
 }
+.fnavbar .nav .nav-wrapper ul li a{
+
+    color: #07aff7 !important;
+}
+
+.fnavbar .nav .nav-wrapper ul li a.neon {
+color: red !important;
+font-size: 16px !important;
+font-weight: 500;
+
+
+}
+
+.fnavbar .nav .nav-wrapper ul li a.neon:hover{
+    text-shadow: 0 0 19px;
+}
 
 .sticky-nav{
     position: fixed;
@@ -91,8 +109,10 @@
 }
 
 .nav-wrapper{
-    background-color: #294b6d!important;
+    /* background-color: white!important; */
+  background: linear-gradient(270deg, #294b6d , white) !important;
 }
+
 
 
 .slides img{
@@ -110,6 +130,37 @@
    background-color: #294b6d !important;
 }
 
+
+
+.descrip .section h2{
+    color:  #294b6d ;
+}
+
+.descrip .section .move{
+    text-align: left;
+}
+
+.descrip .section .descrip-butt{
+    
+    border-color: black;
+    height: 45px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 40px;
+    background: #3da150
+}
+
+.descrip .section .descrip-butt:hover{
+    box-shadow: 0 5px 50px 0 skyblue ,0 5px 50px 0 skyblue ,0 5px 50px 0 skyblue ,0 5px 50px 0 skyblue ;
+    text-shadow: 0 0 8px greenyellow;
+}
+
+.descrip .section .descrip-butt a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif  !important;
+    color: black !important;
+    height: 50px;
+    width: 20px;
+}
 
 .fcard {
     /* background:#294b6d ; */
@@ -298,6 +349,7 @@ transition: 0.5s;
     justify-content: center;
     align-items: center; 
    color: #294b6d;
+   overflow: hidden;
   
 }
 

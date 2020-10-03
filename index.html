@@ -4,258 +4,254 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./CSS/foss.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./port.css">
+    <link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600;700&family=Francois+One&family=Josefin+Slab:wght@700&family=Kanit:wght@500&family=Lato&family=VT323&display=swap" rel="stylesheet">
+    <title>Subhadip Adhikary</title>
 </head>
 <body>
-    
-    
-    <section class='fnavbar'>
-        <nav class="nav  ">
+
+    <section class="fnav">
+        <nav class="navbar-transition cool-navbar z-depth-0">
             <div class="nav-wrapper">
-                
-              <a href="#" class="brand-logo  "><img src="./images/Kiit Foss.svg"  style="padding-left: 12px;" alt="logo" class='logo'></a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down  ">
-                <li ><a href="#"  onclick="toggleModal()">HOME</a></li>
-                <li><a href="#" class='neon' onclick="toggleModal()">PROJECTS</a></li>
-                <li><a href="#" onclick="toggleModal()">ABOUT US</a></li>
-                <li><a href="#" onclick="toggleModal()">JOIN US</a></li>
-                <li><a href="#" onclick="toggleModal()">CONTACT</a></li>
-              </ul>
+              <!-- <a href="#!" class="brand-logo">Logo</a> -->
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#" id="sayHello">Say Hello</a></li>
+                 </ul>
             </div>
-           
           </nav>
         
-          <ul class="sidenav  " id="mobile-demo">
-           <li><a href="#"  onclick="toggleModal()">HOME</a></li>
-            <li><a href="#" onclick="toggleModal()">ABOUT US</a></li>
-            <li><a href="#" onclick="toggleModal()">PROJECTS</a></li>
-            <li><a href="#" onclick="toggleModal()">JOIN US</a></li>
-            <li><a href="#" onclick="toggleModal()">CONTACT</a></li>
-                
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
           </ul>
-        
-    </section>
-
-    <div class="splash">
-        <p class='fade-in'>Welcome to opensource</p>
-    </div>
-
-    <section class='fslider'>
-        <div class="slider">
-            <ul class="slides">
-                <li id='slide1'>
-                    <img src="./images/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="img-1">
-                <div class="caption center-align  ">
-                     <h3>New Project on Adruino</h3>
-                    
-                </div>
-            </li>
-                <li id='slide2'>
-                    <img src="./images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="img-2">
-                <div class="caption center-align ">
-                    <h3>5 REASONS DENO IS BETTER</h3> 
-                    <!-- <h5 class="light text-lighten-3">We serve the best coffee</h5> -->
-                </div>
-            </li>
-            </ul>
-        </div>
 </section>
 
-<section class="descrip">
-    <div class="section  center">
-        <h2 class="header"><span>  WHAT IS</span> 
-            <span class="box"></span>
-             <span class="openC">OPENSOURCE</span>
-            </h2><br>
-        
-        
-        <div class="row container center">
-            <div class="col center l8 s12 move ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vero doloremque, quisquam minus voluptas porro inventore aut, eveniet atque perspiciatis et dignissimos. Debitis sequi alias quasi odio aliquam quos error distinctio explicabo, mollitia eos illum neque aspernatur, ducimus laudantium unde, odit sed. Quam nisi dolore officia nihil at quaerat aut magni, enim cumque deleniti unde autem provident saepe, neque vel aspernatur laudantium ad, dignissimos commodi fugit facilis sapiente possimus? Itaque amet voluptate saepe numquam eaque minus vel libero corrupti in aliquam ipsa, at delectus vitae officiis aperiam iste autem exercitationem ut expedita. Nulla hic vel repellendus esse laboriosam in aut.
-            </div>
-            <div class="col center l4 s12"></div>
-            <img src="./images/Untitled design-49.png" height='150px'  width='200px' style='object-fit: contain;'alt="">
-        </div>
-        <button class="descrip-butt"><a href="#">KNOW MORE</a></button>
-    </div>
-</section><br><br>
+<section class="fheader">
 
-<section class='fcard'  style="  background-image: url(./images/floating-cogs.svg);  background-color: #294b6d; width: auto;  height: fit-content;" >
-
-   
-  	
-
-      <svg xmlns="http://www.w3.org/2000/svg" style="float:bottom"  viewBox="0 0 1440 320"><path fill="white" fill-opacity="1000" d="M0,256L48,250.7C96,245,192,235,288,218.7C384,203,480,181,576,149.3C672,117,768,75,864,58.7C960,43,1056,53,1152,74.7C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-   
-        <div class="container cards center row move"  style="margin-bottom: 0px;"  >
-           
-
-            <div class="card col c1 ">
-                <div class="imgBx">
-                    <img src="./images/programming.png" alt="">
-                </div>
-                <div class="contentBx">
-                    <h2>Web Devlopment</h2>
-
-                    <div class="flink">
-                        <h5><a href="#">JOIN</a></h5>
-                    </div>
-                </div><span>
-
-            </div>
-            <div class="card col c2 ">
-                <div class="imgBx">
-                    <img src="./images/ai.png" alt="">
-                </div>
-                <div class="contentBx">
-                    <h2>Machine Learning</h2>
-
-                    <div class="flink">
-                        <h5 class='link2'><a href="#">JOIN</a></h5>
-                    </div>
-                </div>
-
-            </div>
-            <div class="card col  c3">
-                <div class="imgBx">
-                    <img src="./images/microcontroller.png" alt="">
-                </div>
-                <div class="contentBx">
-                    <h2>Embedded systems</h2>
-
-                    <div class="flink">
-                        <h5><a href="#">JOIN</a></h5>
-                    </div>
-                </div>
-
-            </div>
-            <div class="card col  c4">
-                <div class="imgBx">
-                    <img src="./images/android.svg" alt="">
-                </div>
-                <div class="contentBx">
-                    <h2>Android Devlopment</h2>
-
-                    <div class="flink">
-                        <h5><a href="#">JOIN</a></h5>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-       
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="white" fill-opacity="1" d="M0,64L60,58.7C120,53,240,43,360,53.3C480,64,600,96,720,138.7C840,181,960,235,1080,224C1200,213,1320,139,1380,101.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
-  </svg>
-
-    
-    
-    
-        
-    
-        
+    <h4>I am a Web Devloper,Film director & Screenplay Writer</h4><br>
+    <h5>Hi I'm  <em> <span  style="color: #11be7c;"> Subhadip Adhikary</span></em>,You can say Subha</h5><br>
+    <h6>I love Web dev,I also make movies sometimes</h6>
 </section>
 
-
-
-<section  class='fparallax'>
-    <div class="parallax-container">
-        <div class="parallax"><img src="./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg"   alt=""></div>
-    </div>
+<section class="fdp">
+    <p><img src="./img/Untitled-2-01.svg" alt=""  ></p>
 </section>
 
+<h5  style="align-items: center;
+justify-content: center;
+display: flex;">Lets be internet'S  BFFs</h5>
+
+<section class="flinks">
+    <ul class="links ">
+  <li><a href='https://www.facebook.com/subhadip.adhikary.758/' target="_blank"><i class="fab fa-facebook-f  fa-3x"  style="color: #303960;"></i></a></li>
+  <li><a href='https://www.instagram.com/subhadip3230/' target="_blank"><i class="fab fa-instagram-square fa-3x"   style="color: #303960;"></i></a></li>
+  <li><a href='https://twitter.com/deathpeace007'target="_blank"><i class="fab fa-twitter-square fa-3x"   style="color: #303960;"></i></a></li>
+  <li><a href="https://www.linkedin.com/in/subhadip-adhikary-063407183/"><i class="fab fa-linkedin fa-3x"   href='' style="color: #303960;"></i></a></li>
+  <li><a href='https://github.com/subhadip007' target="_blank"> <i class="fab fa-github fa-3x"   style="color: #303960;"></i></a> </li>
+  <li><a href="mailto:subhadipadhikary007@gmail.com"target="_blank"><i class="fas fa-envelope  fa-3x"  href='' style="color: #303960;"></i></a></li>
+    </ul>
+</section>
+
+<section class="fgraphix">
+
+    <img src="./img/undraw_web_developer_p3e5.svg" alt="">
+</section>
 <section class="fabout">
-    <div class="section white-center">
-        <div class="row container">
-            <h2 class="header">About us</h2>
-            <p class="  col l8 s12 grey-text text-darken-3 about-cont">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatem tenetur autem quod illum magni praesentium possimus voluptate ducimus nobis suscipit dolorum velit corporis tempore earum modi, a eaque commodi optio eligendi. Porro at laborum harum quae quibusdam delectus nulla, culpa exercitationem nam deserunt quas, aliquid doloribus modi voluptate asperiores!
-            </p>
-            <img src="./images/undraw_team_ih79.svg" alt=""  class='col l4 s8'>
-            <a href="#"  class='button col l2 s4'>MORE</a>
+    
+    <h4 class='first'>Hi,I am Subhadip Adhikary.Welcome to my site</h4>
+    <p  class="about"> I started learing Web Dev almost on March of 2020,<br> After learning HTML,I got so exited and started lerning it with atmost. <br>    I am a student of Electronics and Communications at KIIT. <br>  I have devloped  website for the open source community of my University KIIT FOSS.  
+   <br>  I am also a Film enthusiat,I  Direct and Write movie Screenplay </p>
+
+   <container class="box">
+
+     <div class="row">
+
+      <div class="col   "  style="border-right: 2px solid #303960;" >
+        <i class="fas fa-code  fa-4x" style="color: #303960; margin-top: 19px;"></i>
+        <h5><strong><u>Tech</u></strong></h5>
+        <P>I started learning Web Dev. a year ago.I started it by learing HTML and CSS and after that i stated learing frontend and later learned REACT and Now i am learing to work with MERN stack :)</P>
+        <p class="head" style="font-family: 'Baloo Tammudu 2', cursive; padding"><strong ><u>Languages I speak</u></strong></p>
+        <div class="techList">
+          <ul style="list-style: none;">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Vanilla JS</li>
+            <li>REACT</li>
+            <li>SASS</li>
+            <li>C</li>
+            <li>Python</li>
+           </ul>
         </div>
+        <p>Tools and Libraries  I use</p>
+        <div class="techList1">
+          <ul style="list-style: none;">
+            <li>Materialise</li>
+            <li>Gsap</li>
+            <li>Barbra JS</li>
+            <li>Particles JS</li>
+            <li>VS Code</li>
+            <li>Terminal(iTerm and zsh)</li>
+           </ul>
+        </div>
+      </div>
+
+      <div class="col " >
+        <i class="fas fa-film  fa-4x" style="color: #303960;"></i>
+        <h5><strong><u>Film</u></strong></h5>
+        <P>I got interested in Flims in class 12.I was inspired by Vinit Masram and his YT channel and i took this beyond my entairment and started learing it</P>
+        <p class="head" style="font-family: 'Baloo Tammudu 2', cursive; "><strong ><u>Things I do</u></strong></p>
+        <div class="techList">
+          <ul style="list-style: none;">
+            <li>Direction</li>
+            <li>Screenplay Writing </li>
+            <li>Video Editing</li>
+            <li>Photography</li>
+            <li>Cinematography(sometimes :) )</li>
+            
+           </ul>
+        </div>
+        <p>Tools I use</p>
+        <div class="techList">
+          <ul style="list-style: none;">
+            <li>Studio Blinder for Screenplay Writing</li>
+            <li>DaVinchi Resolve</li>
+            <li>Garageband</li>
+            <br><br><br><br><br>
+           </ul>
+        </div>
+      </div>
+
+         
+
+         
+
+     </div>
+           
+   </container>
+
+   <container class="projects">
+
+    <h4 id="project-header">MY PROJECTS</h4>
+    <div class="row">
+      <div class="col s6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="./img/kiit-foss sc.PNG">
+          </div>
+          <div class="card-content">
+            <p  style="padding-bottom: 15px !important;">I Helped in making KIIT-FOSS official website with other cool guys in 2020 in AUG</p>
+          </div>
+          <div class="card-action">
+            <a href="https://kiitfossosh.github.io/" target="_blank">Lets go there</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="./img/kiit-foss2.PNG">
+            
+          </div>
+          <div class="card-content">
+            <p  style="padding-bottom: 15px !important;">This is a personal version of KIIT-Foss website i made using Materialise and Gsap</p>
+          </div>
+          <div class="card-action">
+            <a href="https://subhadip007.github.io/" target="_blank">Lets go there</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="./img/mocaccu.PNG">
+            
+          </div>
+          <div class="card-content">
+            <p style="padding-bottom: 15px !important;">This i a Demo website i made this using materialize css after larning it later i put it on GitHub</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/subhadip007/MOCACCU-MATIRIALIZED/tree/css" target="_blank" >Lets go there</a>
+          </div>
+        </div>
+      </div>
     </div>
+
+   </container>
 </section>
 
 
+<div class="parallax-container">
+  <div class="parallax"><img src="./img/'8543846b.png'"></div>
+  <h3>OTHER SIDE OF ME</h3>
+</div>
 
-
-
-<footer class="footer-distributed">
+<section class="about-me">
  
-    <div class="footer-left">
+  <div class="row">
+
+<div class="col s6 l4">
+  
+<h4>Social work</h4>
+<img src="./img/Project Lakshya.png" class='lak'alt="" >
+<p>I have been a part of  NSS Lakshya from 2019.I genarelly teach CL for KISS students and sometimes go out to villeges</p>
+</div>
+<div class="col s6 l4">
+<h4>Film</h4>
+<img src="./img/kfs-correct.PNG" alt="" class="abme-pic">
+<p>I joined KFS at the end of 2018.I have met some wonderful ppl here. I have made a short film here.   </p>
+<span><a href='https://www.instagram.com/p/CDnhrpIBQHk/'>Trailer is out now</a></span>
+</div>
+<div class="col s6 l4">
+<h4>Programming</h4>
+<img src="./img/photo_2020-07-23_19-50-37.jpg" alt="" class="prog">
+<p>I have joined KIIT-FOSS Recently in 2020,I am a part of webdev community there and its the Open-source community of our college </p>
+</div>
+</div>
+
+
+</section>
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s6">
+        <h5 class="white-text">Hi,lets get in touch and do a project</h5><br>
+        
+      </div>
+        <section class="flinks">
+          <ul class="links ">
+        <li><a href='https://www.facebook.com/subhadip.adhikary.758/' target="_blank"><i class="fab fa-facebook-f  fa-3x"  style="color: #28df99;"></i></a></li>
+        <li><a href='https://www.instagram.com/subhadip3230/' target="_blank"><i class="fab fa-instagram-square fa-3x"   style="color:#28df99 ;"></i></a></li>
+        <li><a href='https://twitter.com/deathpeace007'target="_blank"><i class="fab fa-twitter-square fa-3x"   style="color: #28df99;"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/subhadip-adhikary-063407183/"><i class="fab fa-linkedin fa-3x"   href='' style="color: #28df99;"></i></a></li>
+        <li><a href='https://github.com/subhadip007' target="_blank"> <i class="fab fa-github fa-3x"   style="color: #28df99;"></i></a> </li>
+        <li><a href="mailto:subhadipadhikary007@gmail.com"target="_blank"><i class="fas fa-envelope  fa-3x"  href='' style="color: #28df99;"></i></a></li>   
+      </ul>
+      </section>
+   
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    ©Subhadip Adhikary.ALL Rights Reserved 
+   
+    </div>
+  </div>
+</footer>
+    
+
 
     
-    <img src="./images/Kiit Foss.svg" alt="">
-
-    <p class="footer-links">
-    <a href="#">Home</a>
-·
-    <a href="#">About us</a>
-·
-    <a href="#">Projects</a>
-·
-    <a href="#">Join Us</a>
-·
-    <a href="#">Contact</a>
-    </p>
-
-    <p class="footer-company-name">MOCCACCU &copy; 2020</p>
-    </div>
-
-    <div class="footer-center">
-
-    <div>
-    <i class="fa fa-map-marker"></i>
-    <p><span>Bamaria Ward-5</span> Khirpai, India</p>
-    </div>
-
-    <div>
-    <i class="fa fa-phone"></i>
-    <p>+91-9002030630</p>
-    </div>
-
-    <div>
-    <i class="fa fa-envelope"></i>
-    <p><a href="mailto:support@company.com">contact@mocaccu.com</a></p>
-    </div>
-
-    </div>
-
-    <div class="footer-right">
-
-    <p class="footer-company-about">
-    <span>About the company</span>
-We make finest coffee on the planet .Yes we are the best.
-    </p>
-
-    <div class="footer-icons">
-
-    <a href="#"><i class="fa fa-facebook"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-github"></i></a>
-
-    </div>
-
-    </div>
-
-    </footer>
-
-
-
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
-   <script src="./JS/foss.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    
+    <script src="./port.js"></script>
+    <script src="https://kit.fontawesome.com/573581e7d0.js" crossorigin="anonymous"></script>
 </body>
 </html>

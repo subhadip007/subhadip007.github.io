@@ -1,0 +1,360 @@
+
+:root {
+    --main-bg-color: #28df99;
+    --secondary-bg-color: #43c1cf;
+    --secondary-main-bg-color: #303960;
+    --font-1:'Baloo Tammudu 2', cursive;
+    --font-2:'Francois One', sans-serif;
+    --font-3:'Josefin Slab', serif;
+    --font-4:'Kanit', sans-serif;
+    --font-5:'Lato', sans-serif;
+    --font-6:'VT323', monospace;
+
+  }
+
+
+
+
+
+body{
+
+    margin: 0 !important;
+    overflow-x: hidden !important;
+    padding: 0 !important;
+    
+}
+
+p {
+    margin:0 !important;
+    padding: 0 !important;
+}
+
+h5{
+    font-family: var(--font-4);
+    color: var(--secondary-main-bg-color);
+}
+
+.fnav .nav-wrapper{
+
+    background-color: white;
+    box-shadow: 0 !important;
+    padding-top: 20px;
+    
+}
+
+.fnav .nav-wrapper a{
+
+    color: var(--main-bg-color);
+}
+.fnav nav .nav-wrapper ul{
+
+    padding-right: 20px;
+   
+}
+.fnav nav .nav-wrapper ul li a{
+    color: var(--main-bg-color) !important;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 20px;
+}
+
+.fnav nav .nav-wrapper ul li #sayHello {
+
+ border: var(--main-bg-color) 2px solid !important;
+ border-radius: 290486px;
+ background-color: var(--secondary-main-bg-color);
+ height: auto;
+ 
+}
+
+.fnav nav .nav-wrapper ul li #sayHello {
+    padding: 0   30px  0 30px !important;
+}
+.fnav nav .nav-wrapper ul li #sayHello a{
+    height: 30px !important;
+}
+.fnav nav .nav-wrapper ul li a:hover{
+    
+    background-color: white !important;
+    color: var(--secondary-main-bg-color) !important;
+
+}
+
+
+
+
+.fheader{
+     margin-top: 6em;
+    line-height: 2px;
+    font-family: var(--font-4) !important;
+    color: var(--secondary-main-bg-color);
+}
+.fheader h4{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.fheader h5{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.fheader h6{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.fdp{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.fdp p img {
+    height: 30em;
+   width: auto;
+   
+}
+
+
+
+.flinks .links {
+
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+
+.flinks .links ul li{
+    height: 90px;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas{
+    padding-right: 12px;
+    size: 20px;
+}
+
+.fgraphix{
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 6em;
+}
+.fgraphix img{
+
+    height: 22em;
+    width: auto;
+}
+
+
+.fabout{
+    
+    background-color: var(--main-bg-color);
+}
+.fabout .first {
+  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 1em;
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--secondary-main-bg-color) !important;
+    font-family: var(--font-3);
+
+}
+.fabout   .about{
+  
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+   font-weight: 400;
+   font-size: 20px;
+    color: #303960;
+    margin-bottom: 0 !important;
+    padding-bottom: 2em !important;
+     font-family: var(--font-5) !important;
+}
+
+
+
+.fabout .box  .row{
+  
+    border: var(--secondary-main-bg-color) 2px solid;
+    color: var(--secondary-main-bg-color);
+    width: auto;
+   background-color: var(--secondary-bg-color);
+    border-radius:19px;
+    margin: 0 150px 0 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+
+}
+
+.fabout .box  .row h5{
+    font-family: var(--font-1);
+}
+.fabout .box  .row head{
+    margin-top: 15px;
+}
+
+.fabout .box  .row .col{
+    width: 50%;
+    float: left;
+    font-family: var(--font-6);
+    font-size: 25px;
+}
+
+
+#project-header{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: var(--secondary-main-bg-color);
+    margin-top: 3em;
+
+}
+
+ .card-image{
+    height : 150px !important;
+    background-color: var(--secondary-bg-color);
+}
+
+.card-action,.card-action a{
+
+    background-color: var(--secondary-main-bg-color) !important;
+    color: var(--main-bg-color) !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.projects .row{
+    margin: 0 !important;
+}
+.projects .card{
+
+    border: 2px solid #303960 !important;
+    border-radius:19px !important; 
+    overflow: hidden;
+    margin-top: 5em;
+
+}
+
+.parallax-container{
+    height: 50vh !important;
+    margin: 0;
+    min-height: 30vh !important;
+    
+}
+
+.fparallax{
+    width: 100%;
+    
+}
+
+.parallax  img{
+    width: 1500px;
+}
+
+.parallax-container  h3{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 17vh;
+    position: relative;
+   
+
+}
+
+.about-me{
+    background-color: var(--main-bg-color);
+    
+}
+.about-me .row{
+    margin-bottom: 0 !important;
+}
+
+.about-me .row .col h4{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+}
+
+.about-me .row .col  img {
+
+
+border: 3px solid var(--secondary-main-bg-color);
+    border-radius: 50%;
+    font-size: 56px;
+    height: 180px;
+    line-height: 136px;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+/* .about-me .row .col   .abme-pic{
+
+   height: 180px;
+   width :80%;
+   border: 3px solid var(--secondary-main-bg-color);
+    border-radius: 50%;
+} */
+.about-me .row .col  p{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 30px !important;
+    
+
+}
+.about-me .row .col span a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: var(--secondary-main-bg-color);
+    
+}
+
+
+
+.page-footer{
+    background-color:var(--secondary-main-bg-color) !important;
+    overflow-x: hidden !important;
+}
+
+.tink ul li a{
+    display: block;
+}

@@ -147,8 +147,9 @@ display: flex;
     padding-top: 6em;
 }
 .fgraphix img{
-
-    height: 22em;
+    position: relative;
+    bottom: 0;
+    height: 35vh;
     width: auto;
 }
 
@@ -199,14 +200,22 @@ display: flex;
     display: flex;
     text-align: center; 
 }
-
+@media (max-width:470px){
+    .fabout .box{
+        margin: 0 60px 0 60px;
+    }
+}
 .fabout .box  .row h5{
     font-family: var(--font-1);
 }
-.fabout .box  .row head{
-    margin-top: 15px;
-} */
+.fabout .box  .row .col head{
+    margin-top: 30px !important;
+} 
 
+.fabout .box  .row .col .techList{
+
+    margin-top: 20px;
+}
 /* .fabout .box  .row .col{
     width: 50%;
     float: left;

@@ -83,7 +83,7 @@ h5{
 
 
 .fheader{
-     margin-top: 6em;
+     margin-top: 3.7em;
     line-height: 2px;
     font-family: var(--font-4) !important;
     color: var(--secondary-main-bg-color);
@@ -116,7 +116,7 @@ h5{
     display: flex;
 }
 .fdp p img {
-    height: 30em;
+    height: 24em;
    width: auto;
    
 }
@@ -209,10 +209,18 @@ display: flex;
     display: flex;
     text-align: center; 
 }
+.box .row{
+    margin-bottom: 0!important;
+}
 @media (max-width:470px){
     .fabout .box{
-        margin: 0 60px 0 60px;
+        margin: 0 47px 0 47px;
     }
+  .box .row .col i{
+    size: 2x;
+    margin-top: 5px;
+  }
+
 }
 .fabout .box  .row h5{
     font-family: var(--font-1);
@@ -220,11 +228,33 @@ display: flex;
 .fabout .box  .row .col head{
     margin-top: 30px !important;
 } 
+.box .row .tech{
 
+    border-right: var(--secondary-main-bg-color) 2px solid ;
+}
+@media (max-width:500px){
+
+    .box .row .tech{
+    border-bottom: var(--secondary-main-bg-color) 2px solid;
+    border-right: none;
+    }
+}
 .fabout .box  .row .col .techList{
 
     margin-top: 20px;
 }
+
+.fabout .projects h3{
+
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: var(--secondary-main-bg-color);
+    margin-top: 2em;
+
+}
+
 /* .fabout .box  .row .col{
     width: 50%;
     float: left;
@@ -244,22 +274,18 @@ display: flex;
 
 
 }
-.fabout .projects #project-header{
-
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    color: var(--secondary-main-bg-color);
-    margin-top: 3em;
-
-}
+ 
 
  .card-image{
-    height : 150px !important;
+    height : 150px ;
+    width: auto;
     background-color: var(--secondary-bg-color);
 }
-
+@media (max-width:500px){
+.card-image{
+    height: 60px;
+}
+}
 .card-action,.card-action a{
 
     background-color: var(--secondary-main-bg-color) !important;
@@ -280,6 +306,14 @@ display: flex;
     overflow: hidden;
     margin-top: 5em;
 
+}
+.projects .row .col .card  .card-content{
+    padding-top: 33px ;
+}
+@media (max-width: 500px){
+    .projects .row .col .card  .card-content{
+      padding: 10px 5px 5px 5px !important;
+    }
 }
 
 .parallax-container{
@@ -319,7 +353,7 @@ display: flex;
     margin-bottom: 0 !important;
 }
 
-.about-me .row .col h4{
+.about-me .row .col h4,h5{
 
     align-items: center;
     justify-content: center;
@@ -362,9 +396,18 @@ border: 3px solid var(--secondary-main-bg-color);
     justify-content: center;
     display: flex;
     text-align: center;
-    margin-top: 30px !important;
+    margin-top: 30px ;
     
 
+}
+
+
+@media(max-width:500px){
+    .about-me .row .col img{
+        
+        height: 100px;
+    }
+    
 }
 .about-me .row .col span a{
     align-items: center;

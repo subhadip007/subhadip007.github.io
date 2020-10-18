@@ -88,19 +88,23 @@ h5{
     font-family: var(--font-4) !important;
     color: var(--secondary-main-bg-color);
 }
-.fheader h4{
+.fheader h4,h5{
 
     align-items: center;
     justify-content: center;
     display: flex;
 
 }
-.fheader h5{
-
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
+@media (max-width:500px){
+    .fheader h5{
+        font-size: 17px;
+        margin-top: 0;
+    }
+    .fheader h4{
+        font-size: 21px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
 }
 .fheader h6{
 
@@ -117,8 +121,7 @@ h5{
 }
 .fdp p img {
     height: 24em;
-   width: auto;
-   
+   width: auto; 
 }
 
 
@@ -149,16 +152,16 @@ display: flex;
 .fgraphix img{
     position: relative;
     bottom: 0;
-    height: 35vh;
+    height: 60vh ;
     width: auto;
 }
-@media(min-width: 500px){
+@media(max-width: 500px){
     
     .fgraphix img{
     
     position: relative;
     bottom: 0;
-    height: 60vh;
+    height: 40vh;
     width: auto;
     }
 }
@@ -172,15 +175,18 @@ display: flex;
     align-items: center;
     justify-content: center;
     display: flex;
-    padding-top: 1em;
+    padding-top: 0.5em;
     font-weight: 900;
     font-size: 40px;
     color: var(--secondary-main-bg-color) !important;
     font-family: var(--font-3);
-
+    text-align: center;
+    margin-top: 0;
 }
-.fabout   .about{
-  
+
+
+    .fabout   .about{
+
 
     align-items: center;
     justify-content: center;
@@ -194,7 +200,15 @@ display: flex;
      font-family: var(--font-5) !important;
 }
 
+@media (max-width:500px){
+    .fabout .first{
+        font-size: 21px ;
+    }
 
+    .fabout .about{
+        font-size: 12px;
+    }
+    }
 
 .fabout .box  {
   
@@ -228,6 +242,14 @@ display: flex;
 .fabout .box  .row .col head{
     margin-top: 30px !important;
 } 
+.fabout .box  .row .col p{
+    font-family: var(--font-5);
+}
+.fabout .box  .row .col .Tools{
+    font-size: 17px;
+    margin-top: 12px;
+    text-decoration: underline ;
+}
 .box .row .tech{
 
     border-right: var(--secondary-main-bg-color) 2px solid ;
@@ -243,7 +265,10 @@ display: flex;
 
     margin-top: 20px;
 }
-
+.fabout .box  .row .col .Tools{
+    font-size: 17px;
+    margin-top: 12px !important;
+}
 .fabout .projects h3{
 
     align-items: center ;
@@ -254,24 +279,6 @@ display: flex;
     margin-top: 2em;
 
 }
-
-/* .fabout .box  .row .col{
-    width: 50%;
-    float: left;
-    font-family: var(--font-6);
-    font-size: 25px;
-} */
-
-/* @media (max-width: 930px){
-.box{
-
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-
-} */
-
 
 }
  
@@ -341,7 +348,7 @@ display: flex;
     position: relative;
     top: 17vh;
     position: relative;
-   
+    color: var(--secondary-main-bg-color);
 
 }
 
@@ -397,7 +404,8 @@ border: 3px solid var(--secondary-main-bg-color);
     display: flex;
     text-align: center;
     margin-top: 30px ;
-    
+    color: var(--secondary-main-bg-color);
+    font-weight: 30px;
 
 }
 
@@ -415,6 +423,7 @@ border: 3px solid var(--secondary-main-bg-color);
     display: flex;
     text-align: center;
     color: var(--secondary-main-bg-color);
+    text-decoration: underline;
     
 }
 
@@ -427,4 +436,11 @@ border: 3px solid var(--secondary-main-bg-color);
 
 .tink ul li a{
     display: block;
+}
+
+.footer-copyright .container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
 }

@@ -33,7 +33,11 @@ h5{
     font-family: var(--font-4);
     color: var(--secondary-main-bg-color);
 }
-
+.sidenav li a{
+    background-color: #28df99;
+    color: #303960;
+    border-bottom: var(--secondary-main-bg-color) 2px solid;
+}
 .fnav .nav-wrapper{
 
     background-color: white;
@@ -276,12 +280,26 @@ display: flex;
     display: flex;
     text-align: center;
     color: var(--secondary-main-bg-color);
-    margin-top: 2em;
+    margin-top: 1em;
+    font-family: var(--font-4);
+    
+}
+.projects .card{
+
+    border: 2px solid #303960 !important;
+    border-radius:19px !important; 
+    overflow: hidden;
+    margin-top: 5em;
 
 }
 
+@media (max-width:500px){
+    .projects .card{
+        margin-top: 1em;
+    }
+
+   
 }
- 
 
  .card-image{
     height : 150px ;
@@ -306,20 +324,13 @@ display: flex;
 .projects .row{
     margin: 0 !important;
 }
-.projects .card{
 
-    border: 2px solid #303960 !important;
-    border-radius:19px !important; 
-    overflow: hidden;
-    margin-top: 5em;
-
-}
 .projects .row .col .card  .card-content{
     padding-top: 33px ;
 }
 @media (max-width: 500px){
     .projects .row .col .card  .card-content{
-      padding: 10px 5px 5px 5px !important;
+      padding: 17px 5px 5px 5px !important;
     }
 }
 

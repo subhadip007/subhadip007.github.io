@@ -152,7 +152,7 @@ display: flex;
 .fgraphix img{
     position: relative;
     bottom: 0;
-    height: 60vh ;
+    height: 53vh ;
     width: auto;
 }
 @media(max-width: 500px){
